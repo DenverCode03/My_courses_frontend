@@ -24,7 +24,7 @@ export default function App() {
       {/* Hero Section */}
       <section className="flex py-10 justify-center bg-primary-100/20 items-center text-center px-16">
         <div className="w-2/3">
-          <img className="w-full h-full" src="./public/images/hero.webp" alt="hero" />
+          <img className="w-full h-full" src={`images/hero.webp`} alt="hero" />
         </div>
         <div className="flex flex-col">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-600 pb-10">
